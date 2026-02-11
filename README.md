@@ -88,6 +88,7 @@ print("Outliers:",outliers_z,"\n")
 
 df_z_cleaned = df_z[z_scores <= threshold]
 print(df_z_cleaned,"\n")
+
 ```
 <img width="740" height="433" alt="image" src="https://github.com/user-attachments/assets/3b3aab9d-77ce-4f68-9a57-d5f807d355e3" />
 <img width="750" height="569" alt="image" src="https://github.com/user-attachments/assets/050b43a5-4d5e-49da-a9f5-44b7f212e7f8" />
@@ -144,6 +145,7 @@ outliers_z = df_z[z_scores > threshold]
 print("Outliers:",outliers_z,"\n")
 df_z_cleaned = df_z[z_scores <= threshold]
 print(df_z_cleaned,"\n")
+
 ```
 
 <img width="678" height="560" alt="image" src="https://github.com/user-attachments/assets/f4fad729-17f2-45e4-98be-d0c250545d01" />
@@ -201,7 +203,9 @@ print("Outliers:",outliers_z,"\n")
      
 df_z_cleaned = df_z[z_scores <= threshold]
 print(df_z_cleaned,"\n")
+
 ```
+
 <img width="792" height="649" alt="Screenshot 2026-02-11 210527" src="https://github.com/user-attachments/assets/b2083b41-f7df-44e7-b553-3ec498f9f0f1" />
 <img width="793" height="585" alt="Screenshot 2026-02-11 210549" src="https://github.com/user-attachments/assets/8978b1f9-9780-4176-9e07-57a1e6a4bff4" />
 <img width="830" height="594" alt="Screenshot 2026-02-11 210611" src="https://github.com/user-attachments/assets/6545c5e4-0a9f-491d-af4a-d1cc973279cd" />
@@ -261,9 +265,11 @@ df_z_cleaned = df_z[z_scores <= threshold]
 print(df_z_cleaned,"\n")
 
 ```
+
 <img width="695" height="563" alt="image" src="https://github.com/user-attachments/assets/b7d42a20-e394-4398-aa70-b0789adcd5d6" />
 <img width="772" height="749" alt="image" src="https://github.com/user-attachments/assets/836db396-1522-41f4-8e1a-9f1352edcc65" />
 <img width="442" height="559" alt="image" src="https://github.com/user-attachments/assets/480f7c0a-692d-4930-9b30-3e2433b510da" />
+
 
 ```
 
